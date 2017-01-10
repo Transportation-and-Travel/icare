@@ -2,7 +2,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.1'
-gem 'rails', '4.2.7'
+gem 'rails', '4.2.7.1'
 
 # Servers
 gem 'thin'
@@ -71,6 +71,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'rb-readline'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'scss_lint', require: false
